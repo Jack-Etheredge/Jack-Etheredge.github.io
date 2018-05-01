@@ -7,7 +7,7 @@ title: Steam Webscraping and Linear Regression Project - Jack Etheredge
 
 Tools used for webscraping: Python, pandas, Selenium, beautiful soup.
 
-Tools used for linear regression: Python, pandas, statsmodels, scikitlearn, .
+Tools used for linear regression: Python, pandas, statsmodels, scikitlearn, matplotlib, seaborn.
 
 The repository for this project is here: [https://github.com/Jack-Etheredge/Steam-Webscraping-Linear-Regression](https://github.com/Jack-Etheredge/Steam-Webscraping-Linear-Regression "Github Repo: Steam Webscraping and Linear Regression Project - Jack Etheredge")
 
