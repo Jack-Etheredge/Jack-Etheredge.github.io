@@ -21,16 +21,23 @@ Daylight savings occurred during this time, so I accounted for the shift in time
 
 Some turnstiles reset their counts during the period observed, so the 4 hour window in which that reset occurred was dropped for further analysis.
 
+![Turnstile_picture](/images/01_Turnstile_picture.png){:class="img-responsive"}
+
+You can see many busy people going through the turnstiles. A collection of up to 14 turnstiles at an entry/exit point in a station is called a "control area" ("CA").
+
+![CA_picture](/images/01_CA_picture.png){:class="img-responsive"}
+
+Pictures by Kevin (kevscon@gmail.com).
+
+In the upper right corner of the booth, you can see a number, which is the control area number for this collection of turnstiles.
+
+
 I determined that the minimum unique identifier for each turnstile was the combination of the RA ID and the CA.
 
 I grouped by station and CA in order to link the entry and exit points with the station they are part of.
-
-
 
 #### To do:
 
 Add picture of plots. 
 
 Add the narrative from the presentation. 
-
-Add Kevin's picture (and credit him for it).
