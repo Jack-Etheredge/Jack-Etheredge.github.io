@@ -3,53 +3,54 @@ layout: post
 title: Predicting patient early readmission to the hospital - Jack Etheredge
 ---
 
-# Predicting early hospital readmissions
+## Predicting early hospital readmissions:
 I used several supervised machine learning algorithms to predict early hospital readmissions based on a dataset available from UCI [here][UCI] originally part of [this][data-paper] study. Additionally, I performed a cost benefit analysis to optimize a threshold for recall and precision. Finally, I made a simple Flask prediction app as well.
 
 I summarized the process of modeling and interpreting this data in [this talk][talk].
 
 ## Models compared:
 
-Logistic regression
+1. Logistic regression
 
-Linear Support vector machine (SVM)
+2. Linear Support vector machine (SVM)
 
-SVM with radial basis function (RBF) kernel
+3. SVM with radial basis function (RBF) kernel
 
-K-Nearest Neighbors (KNN)
+4. K-Nearest Neighbors (KNN)
 
-Decision Tree
+5. Decision Tree
 
-Boosted Trees
+6. Boosted Trees
 
-Random Forest
+7. Random Forest
 
-Gaussian Naive Bayes
+8. Gaussian Naive Bayes
 
-Bernoulli Naive Bayes
+9. Bernoulli Naive Bayes
 
 
 ## Data cleaning:
 
-Replaced ID codes with their descriptions
+1. Replaced ID codes with their descriptions
 
-Removed expired patients (since this unfairly increased model performance, as they were never readmitted)
+2. Removed expired patients (since this unfairly increased model performance, as they were never readmitted)
 
-Removed repeated patients (since this violated independence between observations)
+3. Removed repeated patients (since this violated independence between observations)
 
-I turned reduced the three initial classes into a binary classification problem.
+4. I turned reduced the three initial classes into a binary classification problem.
 
+## Class separability:
 
 This was a relatively difficult supervised machine learning challenge, as we can see, since the two populations are not easily separable with unsupervised methods such as PCA.
 ![early-readmissions-2D-PCA_picture](/images/early-readmissions-2D-PCA.png){:class="img-responsive"}
 
 ## Dealing with class imbalance:
 
-Stratified test/train split
+1. Stratified test/train split
 
-SMOTE oversampling
+2. SMOTE oversampling
 
-Random undersampling
+3. Random undersampling
 
 Roughly 8 times as many patients in the dataset are not readmitted early, so test/train split was always performed stratified and I compared the performance of balanced class weights, SMOTE oversampling, and random undersampling with most of the models.
 
@@ -67,17 +68,17 @@ Since I focused on recall in a mostly negative population, my false negative rat
 
 ### Tools learned so far:
 
-Tools used for Webscraping: Python, pandas, Selenium, beautifulsoup, fuzzywuzzy.
+- Tools used for Classification: scikitlearn (Logistic, KNN, SVM, Decision Tree, Random Forest, Boosted Trees, Naive Bayes, Ensembling), imblearn.
 
-Tools used for web visualizations and web apps: Flask, D3, (some javascript, HTML, CSS)
+- Tools used for web visualizations and web apps: Flask, D3, (some javascript, HTML, CSS)
 
-Tools used for Linear regression: Python, pandas, statsmodels, scikitlearn, matplotlib, seaborn.
+- Tools used for Webscraping: Python, pandas, Selenium, beautifulsoup, fuzzywuzzy.
 
-Tools used for Classification: scikitlearn.
+- Tools used for Linear regression: Python, pandas, statsmodels, scikitlearn, matplotlib, seaborn.
 
-Tools used for Cloud computing: AWS EC2, ssh.
+- Tools used for Cloud computing: AWS EC2, ssh.
 
-Tools used for SQL: SQLAlchemy, psycopg, and PostgreSQL.
+- Tools used for SQL: SQLAlchemy, psycopg, and PostgreSQL.
 
 [talk]: https://github.com/Jack-Etheredge/Predicting-early-hospital-readmissions/blob/master/Predicting%20patient%20readmission%20-%20JNE.pdf
 [pkl]: https://github.com/Jack-Etheredge/Predicting-early-hospital-readmissions/blob/master/Predictor_site_diabetes_flask/randomforest.pkl
