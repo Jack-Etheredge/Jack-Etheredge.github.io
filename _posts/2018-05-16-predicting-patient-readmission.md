@@ -37,7 +37,9 @@ I summarized the process of modeling and interpreting this data in [this talk][t
 
 3. Removed repeated patients (since this violated independence between observations)
 
-4. I turned reduced the three initial classes into a binary classification problem.
+4. Turned the multi-class problem into a binary classification problem.
+
+I turned reduced the three initial classes (Not readmitted, readmitted >30 day, readmitted <30 days) into a binary classification problem (Not readmitted <30 days, Readmitted <30 days). This decision was motivated largely by hospital cost incentives and is a more practically addressed problem at the level of patient health as well (you're much more likely to be able to avoid a <30 day readmission than a 30-90 day readmission). 90 day readmission is another common metric that is used in healthcare, so it's possible that's the range for the >30 day class, but I'm left to infer that, since as best as I could tell, this is not stated/clarified in the original paper.
 
 ## Class separability:
 
