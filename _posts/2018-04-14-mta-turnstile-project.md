@@ -27,7 +27,7 @@ You can see many busy people going through the turnstiles. A collection of up to
 
 ![CA_picture](/images/01_CA_picture.png){:class="img-responsive"}
 
-Pictures by Kevin (kevscon@gmail.com).
+Pictures by Kevin Connor (kevscon@gmail.com).
 
 In the upper right corner of the booth, you can see a number, which is the control area number for this collection of turnstiles.
 
@@ -38,6 +38,6 @@ I grouped by station and CA in order to link the entry and exit points with the 
 
 #### To do:
 
-Add picture of plots. 
+Add picture of plots.
 
-Add the narrative from the presentation. 
+Add the narrative from the presentation.
