@@ -17,6 +17,7 @@ What I'd really like to do is look at topics across author or compare the topic 
 - Game recommender from Steam reviews
 - Book recommender from Goodreads reviews
 - Anime and cartoon cross-recommender from synopses (myanimelist, watchcartoon?, wikipedia?)
+- Electronic health record data: This was what I wanted to work on originally, but I was having a hell of a time finding a good source for data. If anyone knows where I can get access to EHR notes for doing natural language processing and machine learning, please let me know.
 
 ## Some ideas for improving my past projects:
 - Predict Steam overall review number rather than peak concurrent users
