@@ -33,11 +33,11 @@ During the topic modeling for the app, here are some different things I tried an
 * Different clustering types (Kmeans vs spectral)
   - I was surprised to get better performance out of Kmeans clustering than Spectral clustering, since spectral clustering is more flexible with respect to the patterns that it can cluster.
 
-You can see the app here: http://flask-env.svfvjqygqf.us-east-1.elasticbeanstalk.com/
+You can see the app here: [http://flask-env.svfvjqygqf.us-east-1.elasticbeanstalk.com/][http://flask-env.svfvjqygqf.us-east-1.elasticbeanstalk.com/].
 
 Next steps:
 - Commit code to github and add a link here.
-- Get a domain for the app or figure out how to run it on http://jacketheredge.com
+- Get a domain for the app or figure out how to run it on [http://jacketheredge.com][http://jacketheredge.com].
 - Blog post about how to get the dash app deployed on AWS Elastic Beanstalk (I hit a few snags I'd like to spare people)
 - Expand the books visualized to all the books (currently "just" ~2000 books from sci-fi and fantasy)
 - Use word2vec to pull out archetypal characters (hero/protagonist, anti-hero, villain/antagonist, etc)
