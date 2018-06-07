@@ -1,7 +1,6 @@
 ---
-layout: page
+layout: default
 title: Resume
-permalink: /resume/
 ---
 
 ![Resume_picture](/images/jack_etheredge_resume.png){:class="img-responsive"}
@@ -13,3 +12,5 @@ permalink: /resume/
 ### Contact me
 
 [jack.etheredge@gmail.com](mailto:jack.etheredge@gmail.com)
+
+[back](./)

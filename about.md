@@ -1,7 +1,6 @@
 ---
-layout: page
+layout: default
 title: About
-permalink: /about/
 ---
 
 About me:
@@ -13,3 +12,5 @@ I'm a data scientist at Metis. I am interested in AI and machine learning and ev
 ### Contact me
 
 [jack.etheredge@gmail.com](mailto:jack.etheredge@gmail.com)
+
+[back](./)
