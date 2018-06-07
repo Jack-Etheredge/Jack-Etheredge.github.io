@@ -4,8 +4,6 @@ title: Resume
 permalink: /resume/
 ---
 
-### Resume:
-
 ![Resume_picture](/images/jack_etheredge_resume.png){:class="img-responsive"}
 
 [Download PDF](https://jack-etheredge.github.io/docs/jack_etheredge_resume.pdf)
