@@ -1,8 +1,7 @@
 ---
 layout: post
-title: Project Guten-Bag-of-Words - Jack Etheredge
+title: Project Guten-Bag-of-Words
 ---
-## Project Guten-bag-of-words:
 I made a dash app that performs several functions using the [Project Gutenberg][gutenberg_link] books:
 - Suggests 5 books in the same subgenre
 - Gives you words that are associated with that subgenre (loosely; it's based on that maximum topic in the cluster, whereas a cluster is a more direct approximation of subgenre)

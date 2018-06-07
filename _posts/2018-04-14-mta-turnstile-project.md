@@ -1,9 +1,9 @@
 ---
 layout: post
-title: MTA Turnstile Analysis Project - Jack Etheredge
+title: MTA Turnstile Analysis Project
 ---
 
-### MTA turnstile data analysis using Python and pandas.
+### MTA turnstile data: Python exploratory data analysis using pandas, matplotlib, and seaborn.
 
 The repository for this project is here: [https://github.com/Jack-Etheredge/MTA-Turnstile-Analysis](https://github.com/Jack-Etheredge/MTA-Turnstile-Analysis "Github Repo: MTA Turnstile Analysis Project - Jack Etheredge")
 

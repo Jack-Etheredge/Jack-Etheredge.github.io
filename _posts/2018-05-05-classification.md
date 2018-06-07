@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Classification - Jack Etheredge
+title: Classification (with supervised learning)
 ---
 
 ### Classification.

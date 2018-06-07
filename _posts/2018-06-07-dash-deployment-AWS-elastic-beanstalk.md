@@ -1,8 +1,7 @@
 ---
 layout: post
-title: Dash app deployment on AWS Elastic Beanstalk - Jack Etheredge
+title: Dash app deployment on AWS Elastic Beanstalk
 ---
-## Dash app deployment on AWS Elastic Beanstalk:
 
 I'm writing this as a tutorial. It will be refined.
 

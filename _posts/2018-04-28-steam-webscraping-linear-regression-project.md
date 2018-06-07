@@ -1,9 +1,7 @@
 ---
 layout: post
-title: Steam Webscraping and Linear Regression Project - Jack Etheredge
+title: Steam Webscraping and Linear Regression Project
 ---
-
-### Steam Webscraping and Linear Regression.
 
 Tools used for webscraping: Python, pandas, Selenium, beautifulsoup, fuzzywuzzy.
 
@@ -48,7 +46,7 @@ Release Date
 
 # Linear regression:
 
-I attempted to predict peak concurrent users scaped from SteamDB using these independent variables.
+I attempted to predict peak concurrent users scraped from SteamDB using these independent variables.
 
 Linear regression models were made using ordinary least squares, select k-best features, and both lasso and ridge regularization.
 
@@ -57,12 +55,15 @@ Ultimately, ridge regularization performed the best so far.
 
 I summarized the process of acquiring and modeling this data in [this talk](https://github.com/Jack-Etheredge/Steam-Webscraping-Linear-Regression/master/Steam_Linear_Regression.pdf).
 
-It seems likely that the negative coefficients for oculus and vr user tags are due to the relatively low adoption of these types of games so far. There is still a high monetary barrier to entry for these games due to the cost of vr systems, particularly the oculus rift, and these systems are still relatively new for widespread adoption.
+It seems likely that the negative coefficients for oculus and VR user tags are due to the relatively low adoption of these types of games so far. There is still a high monetary barrier to entry for these games due to the cost of VR systems, particularly the oculus rift, and these systems are still relatively new for widespread adoption.
 
-
+# Updates (06-07-18):
+I've since updated this to use data from the entirety of Steam's videogame collection and predict the number of overall reviews (which I'm treating as a good proxy for the number of unique owners). I have 85% predictive power in log space and 65% predictive power is retained if I remove the Metacritic score and the percentage of reviews that are positive.
 
 #### To do:
 
-Add picture of plots. 
+Add picture of plots.
 
-Add the narrative from the presentation. 
+Add the narrative from the presentation.
+
+Upload an updated version of the talk.

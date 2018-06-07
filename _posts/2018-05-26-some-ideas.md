@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Some ideas - Jack Etheredge
+title: Some ideas
 ---
 
 ## Some ideas about my current project:
