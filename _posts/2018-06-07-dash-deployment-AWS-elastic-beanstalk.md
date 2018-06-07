@@ -52,7 +52,7 @@ Run the app:
 ```bash
 python application.py
 ```
-You'll probably see errors about missing modules. Keep pip installing modules until this command works and the app can be seen running correctly in your browser (probably on http://127.0.0.1:5000/). 
+You'll probably see errors about missing modules. Keep pip installing modules until this command works and the app can be seen running correctly in your browser (probably on http://127.0.0.1:5000/).
 
 Here are some likely ones:
 ```bash
@@ -75,6 +75,7 @@ deactivate
 ```
 
 ----
+
 Update your application.py so that it has this layout:
 ```python
 import dash
@@ -94,7 +95,9 @@ if __name__ == '__main__':
     application.run(debug=True)
 ```
 You will run into frustrating and cryptic 500 (Internal Server) Errors if you don't have the top and bottom part of your dash app (application.py) configured this way.
+
 ----
+
 You can now start an elastic beanstalk instance on AWS and then upload a .zip file that directly contains your two files (requirements.txt and application.py), NOT the folder they are in. There are other ways to do this, but this option is the most straightforward in my opinion.
 1. Go to your AWS management console
 2. From AWS services, select "Elastic Beanstalk"
@@ -104,8 +107,9 @@ You can now start an elastic beanstalk instance on AWS and then upload a .zip fi
 6. Navigate to the URL of your site after a couple minutes of automatic EC2 set-up.
 
 awsebcli is the alternative method for this last bit of deployment, which allows you to do it from Terminal/command line.
+
 ----    
+
 Sources:
 1. [https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create-deploy-python-flask.html#configure-your-flask-application-for-eb](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create-deploy-python-flask.html#configure-your-flask-application-for-eb)
 2. [https://community.plot.ly/t/error-when-deploying-dash-app-on-aws-elasticbeanstalk/7567](https://community.plot.ly/t/error-when-deploying-dash-app-on-aws-elasticbeanstalk/7567)
-
