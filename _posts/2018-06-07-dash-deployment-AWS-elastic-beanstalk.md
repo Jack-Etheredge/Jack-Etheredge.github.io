@@ -27,7 +27,7 @@ In Terminal, install virtualenv and awsebcli:
 pip install virtualenv
 pip install awsebcli
 ```
-
+awsebcli isn't necessary, but it's nice to have if you choose to deploy from command line instead of through the AWS console instead/in the future.
 I'd recommend making and navigating to a new directory, but it's not strictly necessary:
 ```bash
 mkdir eb-flask # or whatever you'd rather call the directory
@@ -104,7 +104,7 @@ You can now start an elastic beanstalk instance on AWS and then upload a .zip fi
 5. Upload or your code as a .zip file
 6. Navigate to the URL of your site after a couple minutes of automatic EC2 set-up.
 
-
+awsebcli is the alternative method for this last bit of deployment, which allows you to do it from Terminal/command line.
 ----    
 Sources:
 1. [https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create-deploy-python-flask.html#configure-your-flask-application-for-eb](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create-deploy-python-flask.html#configure-your-flask-application-for-eb)
