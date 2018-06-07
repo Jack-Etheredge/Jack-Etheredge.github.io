@@ -16,9 +16,9 @@ The processes are similar, but the virtual environment option has fewer moving p
 
 Ultimately, you'll need two files in a new directory somewhere on your machine:
 
-requirements.txt
+* requirements.txt
 
-application.py
+* application.py
 
 You can actually run this process without a virtual environment, but the virtual environment allows you to more easily set up requirements.txt, as you'll see.
 
@@ -28,6 +28,7 @@ pip install virtualenv
 pip install awsebcli
 ```
 
+I'd recommend making and navigating to a new directory, but it's not strictly necessary:
 ```bash
 mkdir eb-flask # or whatever you'd rather call the directory
 cd eb-flask
@@ -35,20 +36,15 @@ cd eb-flask
 
 Add your dash app to this directory and rename it application.py.
 
-Follow these steps:
-
 Amazon has a tutorial ([https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create-deploy-python-flask.html#configure-your-flask-application-for-eb](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create-deploy-python-flask.html#configure-your-flask-application-for-eb)) that I've condensed below:
 
-
+Start a virtual environment:
 ```bash
 virtualenv ~/eb-virt
-```
-
-```bash
 source ~/eb-virt/bin/activate
 ```
 
-
+Install flask in the virtual environment:
 ```bash
 pip install flask
 ```
@@ -58,6 +54,15 @@ Run the app:
 python application.py
 ```
 You'll probably see errors about missing modules. Keep pip installing modules until this command works and the app can be seen running correctly in your browser (probably on http://127.0.0.1:5000/). 
+
+Here are some likely ones:
+```bash
+pip install dash
+pip install dash-core-components
+pip install dash-html-components
+pip install pandas
+pip install numpy
+```
 
 Your virtual environment now has all the python packages installed that it needs to run the app, so we can run the following line and get a correctly set-up requirements.txt:
 
