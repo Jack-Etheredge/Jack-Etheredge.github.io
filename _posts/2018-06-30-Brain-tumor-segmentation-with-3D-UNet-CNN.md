@@ -11,18 +11,18 @@ Also, even though my PhD is in neuroscience and developmental biology, this was 
 
 I achieved this using Keras with Tensorflow as the backend.
 
-This U-Net was built for the MICCAI BraTS dataset: https://www.med.upenn.edu/sbia/brats2018/data.html
+This U-Net was built for the [MICCAI BraTS dataset][BraTS].
 
-This U-Net was based on the one constructed in this paper (Isensee 2017): https://arxiv.org/abs/1802.10508 
+This U-Net was based on the one constructed in [this paper (Isensee 2017)][Isensee 2017].
 
-I achieved a dice score of 0.78 and weighted dice score of 0.67. The dice score is effectively the percentage of pixels that are the same between the prediction and the ground truth segmentation masks. More accurately these are "voxels" (volume elements) in the case of 3D volumes. 
+I achieved a dice score of 0.78 and weighted dice score of 0.67. The dice score is effectively the percentage of pixels that are the same between the prediction and the ground truth segmentation masks. More accurately these are "voxels" (volume elements) in the case of 3D volumes.
 
 Ground Truth:               |  Prediction:
 :-------------------------:|:-------------------------:
 ![ground truth](/images/Ground_Truth_Example.png){:class="img-responsive"}  |  ![prediction](/images/Prediction_Example.png){:class="img-responsive"}
 
 Remove this redundancy:
-I achieved a 0.78 whole-tumor test dice score. The dice score is simply the percentage of pixels that are the same for the ground truth and predicted segmentation masks. In the case of 3D images, it's more accurate to say that we're checking the voxel-wise accuracy rather than pixel-wise accuracy, since we're truly dealing with voxels (volume element, the 3D analogue of a pixel). 
+I achieved a 0.78 whole-tumor test dice score. The dice score is simply the percentage of pixels that are the same for the ground truth and predicted segmentation masks. In the case of 3D images, it's more accurate to say that we're checking the voxel-wise accuracy rather than pixel-wise accuracy, since we're truly dealing with voxels (volume element, the 3D analogue of a pixel).
 
 There are different grades of glioma. The BraTS dataset is separated into low-grade glioma (LGG) and high-grade glioma (HGG, also known as glioblastoma). I treated both tumor types (LGG and HGG) together. Papers that separate the task for each tumor subtype can perform better with respect to the dice score, but this is less appropriate for automation, because having different models for different tumor subtypes requires prior physician annotation to work correctly.
 
@@ -33,6 +33,8 @@ Future (tenuously) related project ideas:
 
 I heavily modified code from two sources to get this project to work:
 
-- Original code for building the U-Net was from this repo: https://github.com/ellisdg/3DUnetCNN
-- Original code for the data generator: https://stanford.edu/~shervine/blog/keras-how-to-generate-data-on-the-fly.html
+- Original code for building the U-Net was from this repo: [https://github.com/ellisdg/3DUnetCNN](https://github.com/ellisdg/3DUnetCNN)
+- Original code for the data generator: [https://stanford.edu/~shervine/blog/keras-how-to-generate-data-on-the-fly.html](https://stanford.edu/~shervine/blog/keras-how-to-generate-data-on-the-fly.html)
 
+[Isensee 2017]: https://arxiv.org/abs/1802.10508
+[BraTS]: https://www.med.upenn.edu/sbia/brats2018/data.html
