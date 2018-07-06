@@ -3,7 +3,7 @@ title: Jack Etheredge, PhD
 subtitle: Data Scientist, PhD in Developmental Biology and Neuroscience in New York City
 email: jack.etheredge@gmail.com
 description: Data Scientist, PhD in Developmental Biology and Neuroscience in New York City
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author: Jack Etheredge, PhD
 street_address: 
