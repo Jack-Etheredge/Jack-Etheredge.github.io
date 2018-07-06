@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: 'Hi, my name is Jack. Welcome to my data science blog.'
+landing-title: 'Hi, my name is Jack. Welcome to my data science blog. Please bear with me while I update the layout.'
 description: null
 image: null
 author: null
