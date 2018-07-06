@@ -2,7 +2,7 @@
 layout: post
 title: Dash app deployment on AWS Elastic Beanstalk
 description: tutorial blog post
-image: assets/images/pic06.jpg
+image: assets/images/stefan-stefancik-257625-unsplash.jpg
 ---
 
 I'm writing this as a tutorial. It will be refined.
