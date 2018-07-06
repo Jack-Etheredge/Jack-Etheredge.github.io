@@ -2,7 +2,7 @@
 layout: post
 title: Steam Webscraping and Linear Regression Project
 description: project blog post
-image: assets/images/pic06.jpg
+image: assets/images/kelly-sikkema-601276-unsplash.jpg
 ---
 
 Tools used for webscraping: Python, pandas, Selenium, beautifulsoup, fuzzywuzzy.
