@@ -2,7 +2,7 @@
 layout: post
 title: Some ideas
 description: brainstorming blog post
-image: assets/images/pic06.jpg
+image: assets/images/alex-iby-252034-unsplash.jpg
 ---
 
 ## Some ideas about my current project:
