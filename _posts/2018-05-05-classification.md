@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Classification (with supervised learning)
+description: project blog post
+image: assets/images/pic06.jpg
 ---
 
 ### Classification.

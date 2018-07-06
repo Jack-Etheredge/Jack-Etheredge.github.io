@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Some ideas
+description: brainstorming blog post
+image: assets/images/pic06.jpg
 ---
 
 ## Some ideas about my current project:

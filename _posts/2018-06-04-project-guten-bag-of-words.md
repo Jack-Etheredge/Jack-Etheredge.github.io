@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Project Guten-Bag-of-Words
+description: project blog post
+image: assets/images/pic06.jpg
 ---
 I made a dash app that performs several functions using the [Project Gutenberg][gutenberg_link] books:
 - Suggests 5 books in the same subgenre

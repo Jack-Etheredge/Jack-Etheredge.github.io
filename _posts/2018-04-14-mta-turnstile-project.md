@@ -1,6 +1,8 @@
 ---
 layout: post
 title: MTA Turnstile Analysis Project
+description: project blog post
+image: assets/images/pic06.jpg
 ---
 
 ### MTA turnstile data: Python exploratory data analysis using pandas, matplotlib, and seaborn.
