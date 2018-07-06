@@ -2,7 +2,7 @@
 layout: post
 title: Brain tumor segmentation with 3D UNet CNN
 description: project blog post
-image: assets/images/pic06.jpg
+image: images/Prediction_Example.png
 ---
 
 For my final Metis project, I decided to tackle brain tumor segmentation. My Github repo for the project: https://github.com/Jack-Etheredge/Brain-Tumor-Segmentation-3D-UNet-CNN

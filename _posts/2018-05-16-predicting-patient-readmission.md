@@ -2,7 +2,7 @@
 layout: post
 title: Predicting patient early readmission to the hospital
 description: project blog post
-image: assets/images/pic06.jpg
+image: assets/images/marcelo-leal-664865-unsplash.jpg
 ---
 
 I used several supervised machine learning algorithms to predict early hospital readmissions based on a dataset available from UCI [here][UCI] originally part of [this][data-paper] study. Additionally, I performed a cost benefit analysis to optimize a threshold for recall and precision. Finally, I made a simple Flask prediction app as well.
