@@ -2,7 +2,7 @@
 layout: post
 title: Classification (with supervised learning)
 description: project blog post
-image: assets/images/pic06.jpg
+image: assets/images/william-felker-38344-unsplash.jpg
 ---
 
 ### Classification.
