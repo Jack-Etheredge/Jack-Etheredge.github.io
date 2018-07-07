@@ -1,8 +1,11 @@
 ---
-layout: page
+layout: post
 title: Resume
-permalink: /resume/
+description: Resume
+image: assets/images/pic11.jpg
+nav-menu: true
 ---
+
 
 ![Resume_picture](/images/jack_etheredge_resume.png){:class="img-responsive"}
 

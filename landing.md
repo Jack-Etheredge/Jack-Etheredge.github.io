@@ -21,8 +21,9 @@ nav-menu: true
 
 <!-- Two -->
 <section id="two" class="spotlights">
+
 	<section>
-		<a href="generic.html" class="image">
+		<a href="about.html" class="image">
 			<img src="assets/images/pic08.jpg" alt="" data-position="center center" />
 		</a>
 		<div class="content">
@@ -32,27 +33,29 @@ nav-menu: true
 				</header>
 				<p>Learn more about me:</p>
 				<ul class="actions">
-					<li><a href="about.html" class="button">About Me</a></li>
+					<li><a href="about.html" class="button">Go to my About Me page</a></li>
 				</ul>
 			</div>
 		</div>
 	</section>
+
 	<section>
-		<a href="generic.html" class="image">
+		<a href="resume.html" class="image">
 			<img src="assets/images/pic09.jpg" alt="" data-position="top center" />
 		</a>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Rhoncus magna</h3>
+					<h3>Resume</h3>
 				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+				<p>Check out my resume:</p>
 				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
+					<li><a href="resume.html" class="button">Go to my Resume page</a></li>
 				</ul>
 			</div>
 		</div>
 	</section>
+
 	<section>
 		<a href="generic.html" class="image">
 			<img src="assets/images/pic10.jpg" alt="" data-position="25% 25%" />
@@ -69,6 +72,7 @@ nav-menu: true
 			</div>
 		</div>
 	</section>
+
 </section>
 
 <!-- Three -->
