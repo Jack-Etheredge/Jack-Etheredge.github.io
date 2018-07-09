@@ -2,7 +2,7 @@
 layout: post
 title: Resume
 description: Resume
-image: assets/images/pic11.jpg
+image: 
 nav-menu: true
 ---
 
