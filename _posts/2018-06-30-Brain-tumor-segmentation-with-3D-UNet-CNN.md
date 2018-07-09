@@ -46,7 +46,7 @@ Here's an example of the correlation between my predictions in a 3D rotation:
 
 Ground Truth:               |  Prediction:
 :-------------------------:|:-------------------------:
-![ground rotation](/images/groundtruth_rotation_example.gif){:class="img-responsive"}  |  ![prediction rotation](/images/prediction_rotation_example.gif){:class="img-responsive"}
+![ground rotation](/images/groundtruth_rotation_example.gif) |  ![prediction rotation](/images/prediction_rotation_example.gif)
 
 I probably could have squeezed out slightly better numbers if I hadn't kept a holdout set for my predictions or I made that holdout set much smaller. I used 15% of the images for holdout to make prediction segmentation masks, which is a substantial percentage when dealing with only 285 images. In typical fashion for biology, a significant difficulty with this dataset is trying to squeeze insights from a small amount of data. In most other domains, the opposite problem is more common: there's so much data that scalability becomes a problem.
 
