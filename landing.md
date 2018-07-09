@@ -1,7 +1,7 @@
 ---
 title: Landing
 layout: landing
-description: 'Placeholder description'
+description: 'Navigation page'
 image: assets/images/pic07.jpg
 nav-menu: true
 ---
@@ -63,9 +63,9 @@ nav-menu: true
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Return to all blog posts</h3>
+					<h3>Return to all blog posts:</h3>
 				</header>
-				<p>Return to all blog posts:</p>
+				<p>This is a place where I talk about my data science projects. I will also make posts about how I debugged different things I was trying to do, such as getting Python, R, and AWS to play nicely separately and with one another.</p>
 				<ul class="actions">
 					<li><a href="all_posts.html" class="button">Go to blog posts</a></li>
 				</ul>
@@ -79,9 +79,9 @@ nav-menu: true
 <section id="three">
 	<div class="inner">
 		<header class="major">
-			<h2>Return to all blog posts</h2>
+			<h2>Return to all blog posts:</h2>
 		</header>
-		<p>Return to all blog posts:</p>
+		<p>This is a place where I talk about my data science projects. I will also make posts about how I debugged different things I was trying to do, such as getting Python, R, and AWS to play nicely separately and with one another.</p>
 		<ul class="actions">
 			<li><a href="all_posts.html" class="button next">Go to blog posts</a></li>
 		</ul>
