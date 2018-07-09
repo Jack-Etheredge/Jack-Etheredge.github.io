@@ -67,7 +67,7 @@ nav-menu: true
 				</header>
 				<p>Return to all blog posts:</p>
 				<ul class="actions">
-					<li><a href="all-posts.html" class="button">Go to blog posts</a></li>
+					<li><a href="all_posts.html" class="button">Go to blog posts</a></li>
 				</ul>
 			</div>
 		</div>
@@ -83,7 +83,7 @@ nav-menu: true
 		</header>
 		<p>Return to all blog posts:</p>
 		<ul class="actions">
-			<li><a href="all-posts.html" class="button next">Go to blog posts</a></li>
+			<li><a href="all_posts.html" class="button next">Go to blog posts</a></li>
 		</ul>
 	</div>
 </section>
