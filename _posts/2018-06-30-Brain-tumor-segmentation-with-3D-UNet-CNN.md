@@ -28,19 +28,25 @@ Here is the architecture for the 2D U-Net from the original publication mentione
 It is worth mentioning that a 3D U-Net is not the only way to tackle this problem. It could be done slice by slice with a 2D U-Net, or even without a U-Net using a more traditional convolutional-deconvolutional segmentation network without the concatenation between the convolution and deconvolution steps that are the defining element of a U-Net.
 
 There are 3 tumor regions that are being determined in the ground truth and the predictions. From largest to smallest, these are:
-1. Edema*
+1. Edema^
 2. Enhancing tumor core
 3. Necrotic tumor core
 
 The ground truth segmentation comes as a single channel coded 0,1,2,4 for the different regions and 0 as no tumor. I converted this to a 3-channel image with each channel corresponding to a single tumor region prediction of 0 or 1 for each pixel. Correspondingly, I output predictions for for the 3 tumor regions into separate channels with a binary classification for each channel.
 
-Here's an example of the correlation between my predictions:
+Here's an example of the correlation between my predictions in a single 2D plane:
 
 Ground Truth:               |  Prediction:
 :-------------------------:|:-------------------------:
 ![ground truth](/images/Ground_Truth_Example.png){:class="img-responsive"}  |  ![prediction](/images/Prediction_Example.png){:class="img-responsive"}
 
 I achieved a whole-tumor dice score of 0.78 and weighted dice score of 0.67. The dice score is effectively the percentage of pixels that are the same between the prediction and the ground truth segmentation masks. In the case of 3D images, it's more accurate to say that we're checking the voxel-wise accuracy rather than pixel-wise accuracy, since we're truly dealing with voxels (volume element, the 3D analogue of a pixel). The weighted dice score considers the prediction accuracy for each of the three masks.
+
+Here's an example of the correlation between my predictions in a 3D rotation:
+
+Ground Truth:               |  Prediction:
+:-------------------------:|:-------------------------:
+![ground rotation](/images/groundtruth_rotation_example.gif){:class="img-responsive"}  |  ![prediction rotation](/images/prediction_rotation_example.gif){:class="img-responsive"}
 
 I probably could have squeezed out slightly better numbers if I hadn't kept a holdout set for my predictions or I made that holdout set much smaller. I used 15% of the images for holdout to make prediction segmentation masks, which is a substantial percentage when dealing with only 285 images. In typical fashion for biology, a significant difficulty with this dataset is trying to squeeze insights from a small amount of data. In most other domains, the opposite problem is more common: there's so much data that scalability becomes a problem.
 
@@ -58,7 +64,12 @@ I heavily modified code from two sources to get this project to work:
 - Original code for building the U-Net was from this repo: [https://github.com/ellisdg/3DUnetCNN](https://github.com/ellisdg/3DUnetCNN)
 - Original code for the data generator: [https://stanford.edu/~shervine/blog/keras-how-to-generate-data-on-the-fly.html](https://stanford.edu/~shervine/blog/keras-how-to-generate-data-on-the-fly.html)
 
-*As a biologist, I feel like I should clarify that while the documentation/description for the BraTS dataset considers the edema as part of the tumor, this is not quite true (as I'm sure most or all of the people using the dataset are well aware). Edema is basically pooling blood, so this is tissue around the tumor that might be damaged by swelling and increased vascularization from the tumor, but it not necessarily part of the actual tumor.
+^As a biologist, I feel like I should clarify that while the documentation/description for the BraTS dataset considers the edema as part of the tumor, this is not quite true (as I'm sure most or all of the people using the dataset are well aware). Edema is basically pooling blood, so this is tissue around the tumor that might be damaged by swelling and increased vascularization from the tumor, but it not necessarily part of the actual tumor.
 
 [Isensee 2017]: https://arxiv.org/abs/1802.10508
 [BraTS]: https://www.med.upenn.edu/sbia/brats2018/data.html
+
+To do:
+Show an example of the 4 MRI subtypes
+Show the Z-slice video as a significant
+Show the rotation from the orthogonal axis
