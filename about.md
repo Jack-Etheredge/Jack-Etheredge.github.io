@@ -1,7 +1,7 @@
 ---
 layout: post
 title: About
-description: About
+description: 'About Me:'
 image:
 nav-menu: true
 ---
