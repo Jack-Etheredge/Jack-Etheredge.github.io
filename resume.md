@@ -2,7 +2,7 @@
 layout: post
 title: Resume
 description: Resume
-image: 
+image:
 nav-menu: true
 ---
 
