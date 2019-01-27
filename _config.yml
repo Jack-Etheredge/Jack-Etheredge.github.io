@@ -6,12 +6,12 @@ description: Data Scientist, PhD in Developmental Biology and Neuroscience in Ne
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author: Jack Etheredge, PhD
-street_address: 
+street_address:
 city: New York
 state: NY
-zip_code: 
+zip_code:
 country: United States of America
-phone: (803) 367-1152
+phone:
 
 # homepage tiles
 tiles-source: posts # accepts "posts" or "pages"
@@ -21,9 +21,9 @@ tiles-count: 8
 500px_url:
 facebook_url:
 github_url: https://github.com/Jack-Etheredge
-gitlab_url: 
-googleplus_url: 
-instagram_url: 
+gitlab_url:
+googleplus_url:
+instagram_url:
 linkedin_url: https://www.linkedin.com/in/jack-etheredge-phd/
 pinterest_url:
 slack_url:
