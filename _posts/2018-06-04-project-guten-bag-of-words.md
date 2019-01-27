@@ -4,6 +4,8 @@ title: Project Guten-Bag-of-Words
 description: project blog post
 image: assets/images/patrick-tomasso-71909-unsplash.jpg
 ---
+[Project Gutenberg][gutenberg_link] is a wonderful service providing free access to books with expired copyrights. However, very little information beyond the author and title are typically available through the site. This motivated me to use unsupervised machine learning in the form of natural language processing (NLP), dimensionality reduction, and clustering to generate genre groupings, make similar book recommendations, and visualize narrative patterns for these books.
+
 I made a dash app that performs several functions using the [Project Gutenberg][gutenberg_link] books:
 - Suggests 5 books in the same subgenre
 - Gives you words that are associated with that subgenre (loosely; it's based on that maximum topic in the cluster, whereas a cluster is a more direct approximation of subgenre)
