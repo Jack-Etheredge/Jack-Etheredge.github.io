@@ -1,18 +1,14 @@
-<!DOCTYPE html>
-<!--
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+---
+layout: base
+---
 
-{% include head.html %}
-<link rel="shortcut icon" type="image/jpeg" href="/favicon.jpeg">
+{% include header.html type="page" %}
 
-<body>
-
-    {% include header.html %} {{ content }} {% include footer.html %}
-
-</body>
-
-</html>
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      {{ content }}
+	  {% include comments.html %}
+    </div>
+  </div>
+</div>
