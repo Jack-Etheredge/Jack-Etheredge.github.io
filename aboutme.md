@@ -4,7 +4,9 @@ title: About Me
 subtitle: Machine Learning Engineer / Data Scientist in New York City
 ---
 
-My name is Jack Etheredge. I'm currently a senior machine learning engineer at American Express, where I perform deep learning research and develop and deploy software powered by machine learning while mentoring junior team members. 
+My name is Jack Etheredge. I'm currently a senior machine learning engineer at Twosense.ai.
+
+Previously I was a senior machine learning engineer at American Express, where I performed deep learning research and developed and deployed machine learning powered software while mentoring junior team members. 
 
 I particularly enjoy machine learning research opportunities that focus on addressing human health and environmental conservation problems.
 
