@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Using Keras with multi-GPU with TensorFlow backend
-description: tutorial blog post
-image: images/post_link_photos/maxime-rossignol-266384-unsplash.jpg
+subtitle: tutorial blog post
+thumbnail-img: images/post_link_photos/maxime-rossignol-266384-unsplash.jpg
 ---
 
 So you've got Keras running fine one one GPU either using a personal system or AWS (likely a p2.xlarge instance), but you'd like to have more power.

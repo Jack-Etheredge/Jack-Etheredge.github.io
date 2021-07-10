@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Some ideas
-description: brainstorming blog post
-image: assets/images/alex-iby-252034-unsplash.jpg
+subtitle: brainstorming blog post
+thumbnail-img: assets/images/alex-iby-252034-unsplash.jpg
 ---
 
 ## Some ideas about my current project:

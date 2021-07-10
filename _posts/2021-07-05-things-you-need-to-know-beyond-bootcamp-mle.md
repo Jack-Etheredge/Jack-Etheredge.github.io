@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Extra things you need to know after a data science bootcamp
-description: MLE skills beyond DS bootcamp - educational
+subtitle: MLE skills beyond DS bootcamp - educational
 image:
 ---
 

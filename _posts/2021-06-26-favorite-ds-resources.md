@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Some of my favorite data science resources
-description: favorite ds resources - educational
+subtitle: favorite ds resources - educational
 image:
 ---
 

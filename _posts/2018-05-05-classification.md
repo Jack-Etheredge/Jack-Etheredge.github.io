@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Classification (with supervised learning)
-description: project blog post
-image: assets/images/william-felker-38344-unsplash.jpg
+subtitle: project blog post
+thumbnail-img: assets/images/william-felker-38344-unsplash.jpg
 ---
 
 ### Classification.

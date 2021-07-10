@@ -160,6 +160,9 @@ excerpt_length: 50
 # and RSS feed title
 title-separator: "-"
 
+# Add a search button to the navbar
+post_search: true
+
 # Ruby Date Format
 date_format: "%B %-d, %Y"
 
@@ -207,58 +210,6 @@ exclude:
   - Vagrantfile
   - docs/
 
-# prose.io config
-prose:
-  rooturl: '_posts'
-  media: 'img'
-  ignore:
-    - 404.html
-    - LICENSE
-    - feed.xml
-    - _config.yml
-    - /_layouts
-    - /_includes
-    - /css
-    - /img
-    - /js
-  metadata:
-    _posts:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "post"
-      - name: "title"
-        field:
-          element: "text"
-          label: "Post title"
-          placeholder: "Title"
-          alterable: true
-      - name: "subtitle"
-        field:
-          element: "textarea"
-          label: "Subtitle"
-          placeholder: "A description of your post."
-          alterable: true
-      - name: "date"
-        field:
-          element: "text"
-          label: "Date"
-          help: "Enter date of post."
-          placeholder: "yyyy-mm-dd"
-          alterable: true
-      - name: "image"
-        field:
-          element: "text"
-          label: "Image"
-          help: "Add a thumbnail image to your post."
-          placeholder: "Thumbnail"
-          alterable: true
-      - name: "published"
-        field:
-          element: "checkbox"
-          label: "Publish"
-          help: "Check to publish post, uncheck to hide."
-
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -266,47 +217,3 @@ plugins:
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
-
-
-# ## Old config vals
-# # site settings
-# title: Jack Etheredge, PhD
-# tagline: Machine Learning Engineer / Data Scientist in New York City
-# description: Deep Learning Researcher, PhD in Neuroscience
-# baseurl: "/" # the subpath of your site, e.g. /blog
-# url: # the base hostname & protocol for your site
-
-# # About/contact
-# author: 
-#   name: Jack Etheredge, PhD
-#   urL: #
-#   email: jack.etheredge@gmail.com
-
-# street_address:
-# city: New York
-# state: NY
-# zip_code:
-# country: United States of America
-# phone:
-
-# # homepage tiles
-# tiles-source: posts # accepts "posts" or "pages"
-# tiles-count: 8
-
-# # social settings
-# 500px_url:
-# facebook_url:
-# github_url: https://github.com/Jack-Etheredge
-# gitlab_url:
-# googleplus_url:
-# instagram_url:
-# linkedin_url: https://www.linkedin.com/in/jack-etheredge-phd/
-# pinterest_url:
-# slack_url:
-# twitter_url: https://twitter.com/JackNEtheredge
-
-# # build settings
-# markdown: kramdown
-
-# sass:
-#   style: compressed

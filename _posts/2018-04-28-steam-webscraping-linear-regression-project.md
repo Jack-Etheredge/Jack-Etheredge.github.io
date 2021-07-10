@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Steam Webscraping and Linear Regression Project
-description: project blog post
-image: assets/images/kelly-sikkema-601276-unsplash.jpg
+subtitle: project blog post
+thumbnail-img: assets/images/kelly-sikkema-601276-unsplash.jpg
 ---
 
 Steam is a popular online store for computer video games. I scraped Steam and steamDB data for every video game available for purchase through Steam and then performed linear regression to predict the number of concurrent users. This was done using Selenium and Python. Many Python packages were used including pandas, seaborn, stats models, scikitlearn, fuzzywuzzy.

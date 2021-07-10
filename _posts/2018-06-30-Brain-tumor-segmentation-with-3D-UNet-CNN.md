@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Brain tumor segmentation with 3D UNet CNN
-description: project blog post
-image: images/Prediction_Example.png
+subtitle: project blog post
+thumbnail-img: images/Prediction_Example.png
 ---
 
 For my final Metis project, I decided to tackle brain tumor segmentation. Image segmentation is the process of finding objects and boundaries in images. Computationally, this requires making pixel-wise predictions and can be thought of as a classification problem with n object types being located and n+1 classes (one class is background or no object that we care about identifying).
