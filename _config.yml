@@ -60,8 +60,7 @@ footer-link-col: "#404040"
 
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
-author:
-  name: Jack Etheredge, PhD
+author: Jack Etheredge, PhD
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
@@ -70,21 +69,25 @@ author:
 social-network-links:
   rss: true
   email: "jack.etheredge@gmail.com"
-  # facebook: deanattali
+  # facebook: yourname
   github: Jack-Etheredge
   twitter: JackNEtheredge
 #  reddit: yourname
   linkedin: jack-etheredge-phd
 #  xing: yourname
-#  stackoverflow: "3943160/daattali"
-#  snapchat: deanat78
-#  instagram: deanat78
-#  youtube: user/deanat78
+#  stackoverflow: "3943160/yourname"
+#  snapchat: yourname
+#  instagram: yourname
+#  youtube: user/yourname
 #  spotify: yourname
-#  telephone: +14159998888
-#  steam: deanat78
+#  telephone: 3141592653
+#  steam: yourname
 #  twitch: yourname
 #  yelp: yourname
+
+# If you want to show a link to an RSS in the footer, add the site description here.
+# If you don't want to show an RSS link, remove the following line.
+rss-description: Jack Etheredge - ML Projects, Thoughts, and Miscellanea
 
 # Select which share links to show in posts
 share-links-active:
@@ -163,7 +166,7 @@ date_format: "%B %-d, %Y"
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Vancouver"
+timezone: "America/New_York"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
@@ -202,6 +205,7 @@ exclude:
   - LICENSE
   - README.md
   - Vagrantfile
+  - docs/
 
 # prose.io config
 prose:
