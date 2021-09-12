@@ -5,7 +5,7 @@ subtitle:
 image:
 ---
 
-As I discussed in my previous blog post, the paper ["Early Convolutions Help Transformers See Better"](https://arxiv.org/abs/2106.14881) replaces the patchify operation in the original vision transformer paper with convolutions.
+As I discussed in my previous blog post, the paper ["Early Convolutions Help Transformers See Better"](https://arxiv.org/abs/2106.14881) replaces the patchify operation in the original vision transformer paper with convolutions. I implemented this paper [here](https://github.com/Jack-Etheredge/early_convolutions_vit_pytorch).
 
 Here's the code to replace the patchify operations: 
 ```python
@@ -45,3 +45,5 @@ References:
 - "Early Convolutions Help Transformers See Better" ([arXiv](https://arxiv.org/abs/2106.14881))
 - "Attention Is All You Need" ([arXiv](https://arxiv.org/abs/1706.03762))
 - "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale" ([arXiv](https://arxiv.org/abs/2010.11929))
+
+Update 9/12/21: Added link to my paper implementation (PyTorch).
