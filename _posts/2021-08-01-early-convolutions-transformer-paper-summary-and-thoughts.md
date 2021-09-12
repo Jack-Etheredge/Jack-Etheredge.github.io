@@ -23,7 +23,7 @@ ViT is not inherently translation invariant, as the transformer is instead permu
 
 This new paper "Early Convolutions Help Transformers See Better" replaces the patchify operation in ViT with convolutions. Patchify in the original ViT paper uses non-overlapping patches, while this CNN+ViT paper uses standard convolutions, which normally have a stride smaller than the kernel, and thus operations are being performed on overlapping patches.
 
-The focus of this paper was on the optimization behavior of the network. They claim that ViT is a bit finicky to optimize, and is sensitive to learning rate and weight decay (~ L2 regularization) choices, converges slowly, works with AdamW, but not SGD, and that their CNN+ViT architecture fixes all of these shortcomings. An additional point that is particularly interesting to me is that this architecture achieves state of the art (SOTA) results on ImageNet, which makes me think that this paper might be the turning point where transformers might beginning wrestling with CNNs for computer vision task supremacy.
+The focus of this paper was on the optimization behavior of the network. They claim that ViT is a bit finicky to optimize, and is sensitive to learning rate and weight decay (~ L2 regularization) choices, converges slowly, works with AdamW, but not SGD, and that their CNN+ViT architecture fixes all of these shortcomings. An additional point that is particularly interesting to me is that this architecture achieves state of the art (SOTA) results on ImageNet, which makes me think that this paper might be the turning point where transformers might begin wrestling with CNNs for computer vision task supremacy.
 
 Both the architecture change and the core results of the paper are summarized in Figure 1 of the paper. The rest of the paper goes on to detail the experiments, including some ablation tests and the stability of larger models.
 
@@ -46,4 +46,4 @@ Acronyms:
 - NLP: natural language processing
 - ViT: vision transformer
 
-Update 9/12/21: Added link to my paper implementation (PyTorch).
+Update 9/12/21: Added link to my paper implementation (PyTorch). Fixed typo.
