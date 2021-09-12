@@ -29,7 +29,7 @@ Both the architecture change and the core results of the paper are summarized in
 
 It's always possible with deep learning papers that part of the magic sauce is in the exact training paradigm, including the data augmentation used and the exact set of hyperparameters tested, but the fact that the focus of this paper was specifically to test the optimization behavior of the architecture, several different learning rates and weight decay values were used, so this may alleviate a substantial amount of the concern on this front. The data augmentation was compared directly to the that of the Data-efficient image Transformers (DeiT) paper "Training data-efficient image transformers & distillation through attention", which employs a lot of recent data augmentation tricks ([arXiv](https://arxiv.org/abs/2012.12877)).
 
-I'm excited by this architecture and want to play with it soon. I might implement it myself as a fun project, particularly since the code isn't associated with the paper at present.
+I'm excited by this architecture and want to play with it soon. I might implement it myself as a fun project, particularly since the code isn't associated with the paper at present. Update: I implemented this paper [here](https://github.com/Jack-Etheredge/early_convolutions_vit_pytorch). 
 
 The world is a big place. There are 7 billion people. Information is abundant on the internet. Chances are, if you have a great idea, someone else does too. If you don't do it, someone else will. There are two ways to look at this: 1) one in which you must do every good thing that comes to your mind because if you don't, someone else will beat you to it, or 2) one in which you allow yourself to let go of the ambition to do everything you're interested in seeing done in the world. The latter is how I managed to let go of being a wet lab biologists doing bench science. The former is how I feel daily looking at the influx of machine learning publications.
 
@@ -46,4 +46,4 @@ Acronyms:
 - NLP: natural language processing
 - ViT: vision transformer
 
-*This post is a work in a progress.*
+Update 9/12/21: Added link to my paper implementation (PyTorch).
